@@ -1,0 +1,4 @@
+---
+applications:
+- name: pull-request-escrow
+  path: build/libs/pull-request-escrow-1.0.jar

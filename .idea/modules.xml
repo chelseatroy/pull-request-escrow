@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pull-request-escrow.iml" filepath="$PROJECT_DIR$/.idea/modules/pull-request-escrow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pull-request-escrow_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pull-request-escrow_main.iml" group="pull-request-escrow" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pull-request-escrow_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pull-request-escrow_test.iml" group="pull-request-escrow" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,38 @@
+buildscript {
+    ext {
+        springBootVersion = '1.4.2.RELEASE'
+    }
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+
+group 'com.example'
+version '1.0'
+
+jar {
+    baseName = 'pull-request-escrow'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+    compile('org.kohsuke:github-api:1.80')
+    compile('commons-codec:commons-codec')
+    compile('commons-io:commons-io')
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}
